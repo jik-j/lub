@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #ff6b81;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #ff6b81;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd3d8;
+}
+
+.hidden {
+    display: none;
+}
+
+#message-section {
+    margin-top: 40px;
+}
+
+.memory-gallery {
+    margin-top: 20px;
+}
+
+.memory-gallery h3 {
+    font-size: 28px;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.timeline {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.timeline h3 {
+    font-size: 28px;
+    color: #333;
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 18px;
+    color: #777;
+}
